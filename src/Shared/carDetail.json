@@ -1,0 +1,238 @@
+{
+    "carDetails": [
+        {
+            "label": "Listing Title",
+            "name": "listingTitle",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "FaClipboardList"
+        },
+        {
+            "label": "TagLine",
+            "name": "tagline",
+            "fieldType": "text",
+            "column": 2,
+            "icon": "FaTag"
+        },
+        {
+            "label": "Original Price",
+            "name": "originalPrice",
+            "fieldType": "number",
+            "required": true,
+            "column": 1,
+            "icon": "FaDollarSign"
+        },
+        {
+            "label": "Selling Price",
+            "name": "sellingPrice",
+            "fieldType": "number",
+            "required": true,
+            "column": 1,
+            "icon": "FaMoneyBillAlt"
+        },
+        {
+            "label": "Category",
+            "name": "category",
+            "fieldType": "dropdown",
+            "option": ["Sedan", "SUV", "Truck", "Coupe", "Convertible", "Van", "Crossover"],
+            "required": true,
+            "column": 1,
+            "icon": "FaCar"
+        },
+        {
+            "label": "Condition",
+            "name": "condition",
+            "fieldType": "dropdown",
+            "option": ["New", "Used", "Certified Pre-Owned"],
+            "column": 1,
+            "icon": "FaCheckCircle"
+        },
+        {
+            "label": "Type",
+            "name": "type",
+            "fieldType": "dropdown",
+            "required": true,
+            "option": ["Electric", "Hybrid", "Petrol", "Diesel"],
+            "column": 1,
+            "icon": "FaChargingStation"
+        },
+        {
+            "label": "Mileage",
+            "name": "mileage",
+            "fieldType": "number",
+            "required": true,
+            "column": 1,
+            "icon": "FaRoad"
+        },
+        {
+            "label": "Make",
+            "name": "make",
+            "fieldType": "dropdown",
+            "option": [
+                "Sedan",
+                "SUV",
+                "Hatchback",
+                "Convertible",
+                "Coupe",
+                "Minivan",
+                "Pickup Truck",
+                "Station Wagon",
+                "Sports Car",
+                "Electric"
+            ],
+            "column": 1,
+            "icon": "FaIndustry"
+        },
+        {
+            "label": "Model",
+            "name": "model",
+            "fieldType": "text",
+            "required": true,
+            "column": 1,
+            "icon": "FaCarSide"
+        },
+        {
+            "label": "Year",
+            "name": "year",
+            "fieldType": "number",
+            "required": true,
+            "column": 1,
+            "icon": "FaCalendarAlt"
+        },
+        {
+            "label": "Drive Type",
+            "name": "driveType",
+            "fieldType": "dropdown",
+            "option": ["FWD", "RWD", "AWD", "4WD"],
+            "required": true,
+            "column": 1,
+            "icon": "FaRoad"
+        },
+        {
+            "label": "Engine Size",
+            "name": "engineSize",
+            "fieldType": "text",
+            "column": 1,
+            "icon": "FaWrench"
+        },
+        {
+            "label": "Cylinder",
+            "name": "cylinder",
+            "fieldType": "number",
+            "column": 1,
+            "icon": "FaCircle"
+        },
+        {
+            "label": "Fuel Type",
+            "name": "fuelType",
+            "fieldType": "dropdown",
+            "option": ["Petrol", "Diesel", "Electric", "CNG", "Hybrid"],
+            "column": 1,
+            "icon": "FaGasPump"
+        },
+        {
+            "label": "Registration Number",
+            "name": "registrationNumber",
+            "fieldType": "text",
+            "column": 1,
+            "icon": "FaIdCard"
+        },
+        {
+            "label": "VIN (Vehicle Identification Number)",
+            "name": "vin",
+            "fieldType": "text",
+            "required": true,
+            "column": 1,
+            "icon": "FaBarcode"
+        },
+        {
+            "label": "Odometer Reading",
+            "name": "odometerReading",
+            "fieldType": "number",
+            "column": 1,
+            "icon": "FaTachometerAlt"
+        },
+        {
+            "label": "Doors",
+            "name": "doors",
+            "fieldType": "number",
+            "column": 1,
+            "icon": "FaDoorOpen"
+        },
+        {
+            "label": "Horsepower",
+            "name": "horsepower",
+            "fieldType": "number",
+            "column": 1,
+            "icon": "FaHorseHead"
+        },
+        {
+            "label": "Torque",
+            "name": "torque",
+            "fieldType": "text",
+            "column": 1,
+            "icon": "FaCogs"
+        },
+        {
+            "label": "Top Speed",
+            "name": "topSpeed",
+            "fieldType": "text",
+            "column": 1,
+            "icon": "FaTachometerAlt"
+        },
+        {
+            "label": "Acceleration (0-100 km/h)",
+            "name": "acceleration",
+            "fieldType": "text",
+            "column": 1,
+            "icon": "FaBolt"
+        },
+        {
+            "label": "Exterior Dimensions",
+            "name": "exteriorDimensions",
+            "fieldType": "text",
+            "column": 1,
+            "icon": "FaRulerCombined"
+        },
+        {
+            "label": "Interior Space",
+            "name": "interiorSpace",
+            "fieldType": "text",
+            "column": 1,
+            "icon": "FaCouch"
+        },
+        {
+            "label": "Towing Capacity",
+            "name": "towingCapacity",
+            "fieldType": "text",
+            "column": 1,
+            "icon": "FaTruckMoving"
+        },
+        {
+            "label": "Warranty (Years)",
+            "name": "warrantyYears",
+            "fieldType": "number",
+            "column": 1,
+            "icon": "FaFileContract"
+        },
+        {
+            "label": "Offer Type",
+            "name": "offerType",
+            "fieldType": "dropdown",
+            "required": true,
+            "option": ["For Sale", "For Rent", "Lease"],
+            "column": 1,
+            "icon": "FaTags"
+        },
+        {
+            "label": "Listing Description",
+            "name": "listingDescription",
+            "fieldType": "textarea",
+            "required": true,
+            "column": 2,
+            "icon": "FaClipboard"
+        }
+    ]
+}
+

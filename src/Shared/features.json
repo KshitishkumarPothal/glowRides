@@ -1,0 +1,74 @@
+{
+    "features": [
+        {
+            "label": "Air Conditioning",
+            "name": "airConditioning",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Bluetooth",
+            "name": "bluetooth",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Leather Seats",
+            "name": "leatherSeats",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Backup Camera",
+            "name": "backupCamera",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Navigation System",
+            "name": "navigationSystem",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Sunroof",
+            "name": "sunroof",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Heated Seats",
+            "name": "heatedSeats",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Keyless Entry",
+            "name": "keylessEntry",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Cruise Control",
+            "name": "cruiseControl",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Alloy Wheels",
+            "name": "alloyWheels",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Blind Spot Monitoring",
+            "name": "blindSpotMonitoring",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Automatic Emergency Braking",
+            "name": "automaticEmergencyBraking",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Remote Start",
+            "name": "remoteStart",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Heated Steering Wheel",
+            "name": "heatedSteeringWheel",
+            "fieldType": "checkbox"
+        }
+    ]
+}
